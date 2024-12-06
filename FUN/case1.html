@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Bite</title>
+    <link rel="stylesheet" href="case1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <script src="case1.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Quick Bite</h1>
+            </div>
+            <div class="input">
+                <input type="text" id="inp" placeholder="Search Here ..." onkeyup="myFun()">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="icon">
+                <i onclick="login()" class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i onclick="nav()" class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+        <!-- Top Bar with Navigation Options -->
+        <div class="top-bar">
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#delivery-details">Delivery Details</a></li>
+                <li><a href="#order-now">Order Now</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#add-to-cart">Add to Cart</a></li>
+            </ul>
+        </div>
+
+        <div class="login">
+            <h2>Log In</h2>
+            <input type="text" placeholder="Enter Your Name">
+            <input type="password" placeholder="Enter Password"><br>
+            <button>Log In</button>
+        </div>
+
+        
+        
+
+        <!-- Main Page -->
+        <div class="main">
+            <div class="text">
+                <h1>Quick Delivery at Your Service</h1>
+                <p>Delivery at your doorstep - get to us now.</p>
+                <button>Explore More</button>
+          
+        <!-- Card Food -->
+        <div class="food-cards">
+            <div class="head">
+                <h1>Our <span>Quick Foods Available at Your Doorstep</span></h1>
+            </div>
+            <div class="crd">
+                <div class="card">
+                    <img src="fufu and eru.jpg" alt="Fufu and Eru">
+                    <h2>2500 frs Only</h2>
+                    <p>High-quality dish for all Bayangi lovers.</p>
+                    <button>Order Now</button>
+                </div>
+                <div class="card">
+                    <img src="achu.jpg" alt="Achu">
+                    <h2>Achu 5000 frs Only</h2>
+                    <p>Achu is ready next to you at your doorstep.</p>
+                    <button>Order Now</button>
+                </div>
+                <div class="card">
+                    <img src="dejiat.jpg" alt="Poulet DG">
+                    <h2>Poulet DG 2000 frs Only</h2>
+                    <p>Only at Quick Bite you get tasty food.</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+
+            <div class="crd">
+                <div class="card">
+                    <img src="ooo.jpg" alt="Plantains and Ndole">
+                    <h2>Plantains and Ndole 3500 frs Only</h2>
+                    <p>Very cheap, available at your doorstep.</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
